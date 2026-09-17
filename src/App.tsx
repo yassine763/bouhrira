@@ -414,7 +414,8 @@ function Footer() {
           <div>
             <p className="text-[11px] uppercase tracking-[0.3em] text-cream/40">Contact</p>
             <a
-              href={`mailto:${EMAIL}`}
+              href={`mailto:${EMAIL}?subject=Partnership%20enquiry`}
+              aria-label={`Send an email to ${EMAIL}`}
               className="mt-4 block font-serif text-2xl text-cream transition-colors hover:text-gold"
             >
               {EMAIL}
