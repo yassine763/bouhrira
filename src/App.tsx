@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Reveal, SectionLabel } from "./components/Reveal";
 
-const EMAIL = "partnerships@bouhriragroup.com";
+const EMAIL = "partnerships@bouhrira.com";
 
 function Nav() {
   const [scrolled, setScrolled] = useState(false);
