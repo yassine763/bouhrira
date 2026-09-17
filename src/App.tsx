@@ -436,12 +436,12 @@ function Footer() {
           </div>
         </div>
 
-        <div
-          aria-hidden="true"
-          className="outline-text select-none whitespace-nowrap text-center font-serif font-semibold uppercase leading-[0.8] tracking-[-0.01em]"
-          style={{ fontSize: "clamp(2.6rem, 11.4vw, 13rem)" }}
-        >
-          Bouhrira Group
+        <div className="flex justify-center overflow-hidden py-4 md:py-8">
+          <img
+            src="/images/logo.png"
+            alt="The Bouhrira Group"
+            className="h-auto w-[min(86vw,720px)] object-contain"
+          />
         </div>
 
         <div className="flex flex-col items-start justify-between gap-3 border-t border-cream/10 py-6 text-[10px] uppercase tracking-[0.3em] text-cream/35 md:flex-row md:items-center">
