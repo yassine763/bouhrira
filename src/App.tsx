@@ -436,11 +436,11 @@ function Footer() {
           </div>
         </div>
 
-        <div className="flex justify-center overflow-hidden py-4 md:py-8">
+        <div className="flex justify-center overflow-hidden py-4 md:py-6">
           <img
             src="/images/logo.png"
             alt="The Bouhrira Group"
-            className="h-auto w-[min(86vw,720px)] object-contain"
+            className="h-auto w-[min(58vw,460px)] object-contain"
           />
         </div>
 
